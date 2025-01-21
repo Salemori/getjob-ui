@@ -8,7 +8,10 @@ import accessIcon from "../../src/assets/Access.png";
 const Jobs = () => {
   return (
     <div>
-    <div className='flex gap-4 justify-center'>
+    <div className='flex flex-col gap-10 my-24 pl-12'>
+      <h2 className='font-[GT Walsheim Pro] font-[700] text-[#3F403F] text-[36px] leading-[41.22px]'>
+        Recommended Jobs</h2>
+    <div className='flex gap-4 '>
       <JobCard 
       employmentType={"Full time"}
       logo={paystackIcon}
@@ -42,6 +45,7 @@ const Jobs = () => {
       />
 
       
+    </div>
     </div>
     </div>
   )
